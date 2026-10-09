@@ -1,0 +1,95 @@
+============================================================
+GUI STRUCTURE
+============================================================
+
+This GUI is designed to explore OMOP clinical data and
+waveform-derived features on a patient basis.
+
+------------------------------------------------------------
+OVERVIEW
+------------------------------------------------------------
+
+Quick summary of the dataset:
+
+- Patients
+- Events
+- Concepts
+- General statistics
+
+------------------------------------------------------------
+PATIENT EXPLORER
+------------------------------------------------------------
+
+Patient summary page.
+
+Shows:
+
+- Patient IDs
+- Demographics
+- Data availability
+- Visit summary
+
+Useful to understand what data exists for a patient.
+
+------------------------------------------------------------
+CLINICAL TIMELINE
+------------------------------------------------------------
+
+Chronological view of the patient's hospital history.
+
+Includes:
+
+- Admissions
+- Transfers
+- Diagnoses
+- Procedures
+- Medications
+- Clinical measurements
+
+Use the checkboxes to show or hide event types.
+
+------------------------------------------------------------
+WAVEFORM ANALYTICS
+------------------------------------------------------------
+
+Dedicated page for waveform-derived features.
+
+Examples:
+
+- HRV
+- RMSSD
+- SDNN
+- Respiratory Rate
+- Blood Pressure
+- Pleth features
+
+------------------------------------------------------------
+MEDICATIONS
+------------------------------------------------------------
+
+List of medication administrations for the selected patient.
+
+------------------------------------------------------------
+CONDITIONS
+------------------------------------------------------------
+
+List of diagnoses and clinical conditions.
+
+------------------------------------------------------------
+DOCTOR NOTES
+------------------------------------------------------------
+
+Clinical notes and reports associated with the patient.
+
+------------------------------------------------------------
+SUGGESTED WORKFLOW
+------------------------------------------------------------
+
+1. Select a patient
+2. Open Patient Explorer
+3. Review the Clinical Timeline
+4. Check Medications and Conditions
+5. Read Doctor Notes
+6. Explore Waveform Analytics
+
+============================================================

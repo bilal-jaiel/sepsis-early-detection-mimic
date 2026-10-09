@@ -1,0 +1,25 @@
+# MIMIC-IV data and every derived file stay local (PhysioNet data use agreement)
+data/
+*.csv
+*.csv.gz
+*.parquet
+*.npz
+*.pkl
+*.db
+*.sql.gz
+dqd_output/
+output/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
